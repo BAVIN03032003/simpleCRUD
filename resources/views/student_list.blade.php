@@ -22,9 +22,9 @@
             <tr>
                 <td>{{ $student->id }}</td>
                 <td>{{ $student->name }}</td>
-                <td>{{ $student->age }}</td>
+                <td>{{ $student->age }} </td>
                 <td>{{ $student->phone }}</td>
-                <td><a href="{{ url('edit/' . $student->id) }}">Edit</a></td>
+                <td><a href="{{ url('edit/' . $student->id) }}">Edit </a></td>
                 <td><a href="{{ url('delete/' . $student->id) }}">Delete</a></td>
             </tr>
             @endforeach
